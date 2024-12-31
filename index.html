@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End of 2024 Celebration</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .celebration-container {
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+            animation: moveUp 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff7e5f, 0 0 30px #feb47b, 0 0 40px #ff7e5f, 0 0 50px #feb47b, 0 0 60px #ff7e5f, 0 0 70px #feb47b;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff7e5f, 0 0 40px #feb47b, 0 0 50px #ff7e5f, 0 0 60px #feb47b, 0 0 70px #ff7e5f, 0 0 80px #feb47b;
+            }
+        }
+
+        @keyframes moveUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="celebration-container">
+        <h1>Goodbye 2024!</h1>
+        <p>Welcome 2025 with open arms</p>
+    </div>
+</body>
+</html>
